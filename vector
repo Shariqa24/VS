@@ -1,0 +1,18 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<char>vec;
+   
+    vec.push_back('a');
+    vec.push_back('b');
+    vec.push_back('c');
+    vec.push_back('e');
+    vec.push_back('f');
+   
+    cout<<"capacity:"<<vec.capacity()<<endl;
+    cout<<"size:"<<vec.size()<<endl;
+    return 0;
+
+}
